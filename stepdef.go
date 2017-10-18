@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 var matchFuncDefRef = regexp.MustCompile(`\(([^\)]+)\)`)

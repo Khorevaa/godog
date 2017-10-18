@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 func TestShouldSupportIntTypes(t *testing.T) {

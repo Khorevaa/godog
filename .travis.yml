@@ -7,7 +7,7 @@ go:
 
 go_import_path: github.com/DATA-DOG/godog
 
-install: go install github.com/DATA-DOG/godog/cmd/godog
+install: go install github.com/Khorevaa/godog/cmd/godog
 
 script:
   - go vet ./...

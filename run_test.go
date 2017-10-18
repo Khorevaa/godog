@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DATA-DOG/godog/colors"
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/colors"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 func okStep() error {

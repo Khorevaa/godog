@@ -10,7 +10,7 @@ import (
 
 	txdb "github.com/DATA-DOG/go-txdb"
 	"github.com/DATA-DOG/godog"
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 func init() {

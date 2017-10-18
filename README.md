@@ -10,7 +10,7 @@
 
 Please read all the README, you may find it very useful. And do not forget
 to peek into the
-[CHANGELOG](https://github.com/DATA-DOG/godog/blob/master/CHANGELOG.md)
+[CHANGELOG](https://github.com/Khorevaa/godog/blob/master/CHANGELOG.md)
 from time to time.
 
 Package godog is the official Cucumber BDD framework for Golang, it merges
@@ -62,7 +62,7 @@ themselves from costly regressions.
 
 ## Install
 
-    go get github.com/DATA-DOG/godog/cmd/godog
+    go get github.com/Khorevaa/godog/cmd/godog
 
 ## Example
 
@@ -206,7 +206,7 @@ composed.
 ### References and Tutorials
 
 - [how to use godog by semaphoreci](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
-- see [examples](https://github.com/DATA-DOG/godog/tree/master/examples)
+- see [examples](https://github.com/Khorevaa/godog/tree/master/examples)
 - see extension [AssistDog](https://github.com/hellomd/assistdog), which
   may have useful **gherkin.DataTable** transformations or comparison
   methods for assertions.

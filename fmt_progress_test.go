@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DATA-DOG/godog/colors"
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/colors"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 func TestProgressFormatterOutput(t *testing.T) {
@@ -118,7 +118,7 @@ func TestProgressFormatterWhenStepPanics(t *testing.T) {
 	}
 
 	out := buf.String()
-	if idx := strings.Index(out, "github.com/DATA-DOG/godog/fmt_progress_test.go:116"); idx == -1 {
+	if idx := strings.Index(out, "github.com/Khorevaa/godog/fmt_progress_test.go:116"); idx == -1 {
 		t.Fatalf("expected to find panic stacktrace, actual:\n%s", out)
 	}
 }

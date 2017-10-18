@@ -45,13 +45,13 @@ func TestStacktrace(t *testing.T) {
 
 	expect = trimLineSpaces(`err msg
 github.com/DATA-DOG/godog.callstack3
-github.com/DATA-DOG/godog/stacktrace_test.go:29
+github.com/Khorevaa/godog/stacktrace_test.go:29
 github.com/DATA-DOG/godog.callstack2
-github.com/DATA-DOG/godog/stacktrace_test.go:23
+github.com/Khorevaa/godog/stacktrace_test.go:23
 github.com/DATA-DOG/godog.callstack1
-github.com/DATA-DOG/godog/stacktrace_test.go:19
+github.com/Khorevaa/godog/stacktrace_test.go:19
 github.com/DATA-DOG/godog.TestStacktrace
-github.com/DATA-DOG/godog/stacktrace_test.go:37`)
+github.com/Khorevaa/godog/stacktrace_test.go:37`)
 
 	actual = trimLineSpaces(fmt.Sprintf("%+v", err))
 	if expect != actual {

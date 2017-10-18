@@ -44,7 +44,7 @@ Now we have described a success case and an error when the request method is not
 Run **godog version.feature**. You should see the following result, which says that all of our
 steps are yet undefined and provide us with the snippets to implement them.
 
-![Screenshot](https://raw.github.com/DATA-DOG/godog/master/examples/api/screenshots/undefined.png)
+![Screenshot](https://raw.github.com/Khorevaa/godog/master/examples/api/screenshots/undefined.png)
 
 ### Step 3
 
@@ -57,7 +57,7 @@ package main
 
 import (
 	"github.com/DATA-DOG/godog"
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 type apiFeature struct {
@@ -99,7 +99,7 @@ import (
 	"net/http/httptest"
 
 	"github.com/DATA-DOG/godog"
-	"github.com/DATA-DOG/godog/gherkin"
+	"github.com/Khorevaa/godog/gherkin"
 )
 
 type apiFeature struct {
@@ -253,7 +253,7 @@ used to respond with the correct constant version number.
 
 Run our tests to see whether everything is happening as we have expected: `godog version.feature`
 
-![Screenshot](https://raw.github.com/DATA-DOG/godog/master/examples/api/screenshots/passed.png)
+![Screenshot](https://raw.github.com/Khorevaa/godog/master/examples/api/screenshots/passed.png)
 
 ### Conclusions
 
