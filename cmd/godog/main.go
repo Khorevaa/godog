@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/DATA-DOG/godog"
-	"github.com/DATA-DOG/godog/colors"
+	"github.com/Khorevaa/godog"
+	"github.com/Khorevaa/godog/colors"
 )
 
 var statusMatch = regexp.MustCompile("^exit status (\\d+)")
