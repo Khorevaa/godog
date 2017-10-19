@@ -410,7 +410,7 @@ func (f *basefmt) snippets() string {
 				case i != 0:
 					w = strings.Title(w)
 				case len(w) > 0:
-					w = string(unicode.ToLower(rune(w[0]))) + w[1:]
+					w = string(strings.ToLower(string([]rune(w)[0]))) + string([]rune(w)[1:])
 				}
 				words = append(words, w)
 			}
