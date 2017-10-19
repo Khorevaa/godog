@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 	"time"
-	"unicode"
+	//"unicode"
 
 	"github.com/Khorevaa/godog/colors"
 	"github.com/Khorevaa/godog/gherkin"
